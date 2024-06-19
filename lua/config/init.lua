@@ -21,6 +21,8 @@ vim.cmd([[
   autocmd FileType markdown setlocal wrap
 ]])
 
+vim.g.neovide_transparency = 0.0
+
 local opts = {
 	defaults = {
 		lazy = true,

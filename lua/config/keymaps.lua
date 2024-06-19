@@ -17,3 +17,4 @@ vim.api.nvim_set_keymap('n', '<C-S>', ':update<CR>', {noremap = true})
 map("<leader>fr", ":cd D:/Notes<CR>:Telescope find_files<CR>", "n", {noremap=true})
 vim.api.nvim_set_keymap('n', '<leader>cc', ':lua require("util.convert").convert()<CR>', {noremap = true})
 
+
