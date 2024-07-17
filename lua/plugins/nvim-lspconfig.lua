@@ -110,6 +110,12 @@ local config = function()
 		on_attach = on_attach,
 	})
 
+  -- gleam
+  lspconfig.gleam.setup({
+		capabilities = capabilities,
+		on_attach = on_attach,
+  })
+
 	-- C/C++
 	lspconfig.clangd.setup({
 		capabilities = capabilities,
